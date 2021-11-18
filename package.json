@@ -1,0 +1,25 @@
+{
+  "name": "@rmb/hdj-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "chenxiaochun3",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.5.2"
+  }
+}
