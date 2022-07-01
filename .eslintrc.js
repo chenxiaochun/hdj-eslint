@@ -53,6 +53,17 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-props-no-spreading': 0,
+    'react/function-component-definition': [
+      2,
+      {
+        namedComponents: [
+          'function-expression',
+          'function-declaration',
+          'arrow-function',
+        ],
+        unnamedComponents: ['arrow-function'],
+      },
+    ],
     'jsx-a11y/label-has-for': 0,
     'jsx-a11y/label-has-associated-control': 0,
     'global-require': 0,
