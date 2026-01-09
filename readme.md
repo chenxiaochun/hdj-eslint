@@ -1,9 +1,14 @@
 ## ESlint 打包配置
 
-安装：
+整体安装：
 
 ```
-yarn add @rmb/hdj-eslint
+yarn add @rmb/hdj-eslint -D
+```
+
+单独安装：
+```
+yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb eslint-config-prettier eslint-import-resolver-alias eslint-import-resolver-webpack eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier -D
 ```
 
 在本地项目根目录新建两个配置文件：
